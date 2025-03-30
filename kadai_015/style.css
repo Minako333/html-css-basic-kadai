@@ -1,0 +1,34 @@
+h1 {
+    font-family: sans-serif;
+    border-bottom: solid 3px rgb(115, 115, 114);
+    font-size: 2rem;
+    letter-spacing: 1.2em;
+    text-shadow: 1px 1px 2px gray;
+}
+
+/* idをセレクタに指定するときは先頭に「#（ハッシュ）」をつけます */
+#basic　> p {
+    color: black;
+    font-weight: bold;
+  }
+/* classをセレクタに指定するときは先頭に「.（ドット）」をつけます */
+.blue {
+    color: skyblue;
+  }
+.pink {
+    color: rgb(255, 192, 203);
+  }
+
+body {
+    text-align: center;
+    font-family: "Arial", "Meiryo", sans-serif;
+  }
+
+p {
+    font-size: 20px;
+  }
+  
+#basic　> p {
+    color: black;
+    font-weight: bold;
+  }
