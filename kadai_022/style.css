@@ -15,7 +15,7 @@ h1 {
 }
 
 main {
- margin: 10px, 10px, 10px, 10px;
+ margin: 10px 10px 10px 10px;
 }
 
 #parent {
@@ -26,8 +26,8 @@ main {
 .contents {
  border: solid 3px rgb(238, 204, 204);
  flex-basis: 25%;
- padding: 10px, 10px, 15px, 15px;
- margin: 20px, 20px, 0px, 0px;
+ padding: 10px 10px 15px 15px;
+ margin: 20px 20px 0px 0px;
  text-align: center;
 }
 
@@ -47,7 +47,7 @@ p:nth-of-type(2)::first-letter {
 }
 
 .contents > img {
- margin: 10px, 10px, 0px, 0px;
+ margin: 10px 10px 0px 0px;
  width: 70%;
 }
 
@@ -78,7 +78,8 @@ a:hover {
     p {
         font-size: 25px;
     }
-    #parents {
+    #parent {
+        flex-direction: column;
         display: block;
     }
 }
